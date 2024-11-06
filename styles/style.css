@@ -1,7 +1,141 @@
 .hiro{
     text-align: center;
 }
-div{
-    background:url(../assets/assets/Group.png);
-    background-image:url(../assets/assets/Hero-bg.png) ;
+
+.nav{
+    display: flex;
+    gap: 670px;
+}
+.heading{
+    font-size: 30px;
+}
+.banner-content{
+    height: 500px;
+    background-image: url(../assets/assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.discription{
+    font-size: 10px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.section-title .text-center{
+    font-size: 40px;
+}
+.text-center{
+    text-align: center;
+}
+.button{
+    background-color: #4a4747;
+    color: #131313;
+}
+.development{
+    background-color: rgb(252, 250, 250);
+}
+.video{
+    padding: 30px 20px 40px 120px;
+    margin: auto;
+    border: #131313;
+}
+/* SKILL SECTION*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+    padding:20px
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+
+.html{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgb(202, 186, 67);
+    
+}
+.css{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgb(98, 190, 101);
+    
+}
+.js{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgb(111, 103, 186);
+    
+}
+/*---------my next target---------*/
+.skills-containers{
+    padding: 10px;
+}
+.react{
+    margin: 10px;
+    border: solid black;
+    border-radius: 5px;
+    background-color:beige ;
+}
+.node{
+    margin: 10px;
+    border: solid black;
+    border-radius: 5px;
+    background-color:beige ;
+}
+.mongodb{
+    margin: 10px;
+    border: solid black;
+    border-radius: 5px;
+    background-color:beige ;
+}
+
+
+.container {
+    display: flex;
+    width: 50%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 4px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.text-section, .image-section {
+    width: 100%;
+    padding: 30px;
+    
+
+}
+
+.text-section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+.banner-titles{
+    background-image: url(../assets/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
